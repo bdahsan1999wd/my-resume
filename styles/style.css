@@ -19,6 +19,44 @@ body {
   text-align: center;
 }
 
+/* ----------h3 Shared Section Title Styles---------- */
+.section-title-h3 {
+  font-size: 32px;
+  font-weight: 800;
+  color: rgb(13, 19, 33);
+  line-height: 37px;
+  margin-bottom: 24px;
+}
+
+/* ----------Shared Section Description Styles---------- */
+.section-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  line-height: 26px;
+  margin-bottom: 48px;
+  opacity: 0.7;
+}
+
+/* ----------h4 Shared Section Title Styles---------- */
+.section-title-h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(13, 19, 33, 0.7);
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+/* ----------Web Shared Section Description Styles---------- */
+.section-description-web {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
 /* ------------------------------Shared Styles Ends Here------------------------------ */
 
 /* ----------Nav Bar Styles Added---------- */
@@ -109,5 +147,75 @@ header {
   align-items: center;
   box-sizing: border-box;
   white-space: nowrap;
+  cursor: pointer;
+}
+
+/* ----------Why Web Development Section Styles Added---------- */
+.why-web-dev-container {
+  max-width: 1140px;
+  height: 1393px;
+  border: 2px solid red;
+  margin: 0 auto 90px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+.why-web-dev-content {
+  padding: 80px 97px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----------Section Container Styles Added---------- */
+.section-container-1,
+.section-container-2 {
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin-bottom: 32px;
+}
+
+.section-container-3 {
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+/* ----------Section Styles Added---------- */
+.section-1,
+.section-3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 48px;
+}
+
+/* ----------Learn More Button Styles Added---------- */
+.learn-btn {
+  width: 171px;
+  height: 47px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: rgb(13, 19, 33);
+  border: 1px solid rgb(13, 19, 33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  opacity: 0.7;
   cursor: pointer;
 }
