@@ -219,3 +219,26 @@ header {
   opacity: 0.7;
   cursor: pointer;
 }
+
+/* ----------My Inspiration Section Styles Added---------- */
+
+.inspiration-section {
+  width: 1140px;
+  height: 775px;
+  border: 2px solid red;
+  border-radius: 16px;
+  margin: 0 auto 151px;
+}
+
+.inspiration-video {
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inspiration-video iframe {
+  border-radius: 16px;
+}
