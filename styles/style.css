@@ -1,3 +1,8 @@
+/* ----------Google Fonts Added---------- */
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+/* font-family: "Azeret Mono", serif; */
+
 h1 {
   text-align: center;
+  font-family: "Azeret Mono", serif;
 }
