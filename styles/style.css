@@ -12,7 +12,6 @@ html {
 }
 
 body {
-  border: 2px solid red;
   font-family: "Azeret Mono", serif;
 }
 
@@ -65,7 +64,6 @@ body {
 
 /* ----------Nav Bar Styles Added---------- */
 nav {
-  border: 1px solid red;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -101,7 +99,6 @@ nav h3 {
 header {
   max-width: 1440px;
   height: 652px;
-  border: 1px solid red;
   margin: 0 auto 74px;
   background-image: url(../assets/banner-bg.png);
 }
@@ -158,7 +155,6 @@ header {
 .why-web-dev-container {
   max-width: 1140px;
   height: 1393px;
-  border: 2px solid red;
   margin: 0 auto 90px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
@@ -229,7 +225,6 @@ header {
 .inspiration-section {
   width: 1140px;
   height: 775px;
-  border: 2px solid red;
   border-radius: 16px;
   margin: 0 auto 151px;
 }
@@ -252,7 +247,6 @@ header {
 .current-target-container {
   width: 1140px;
   height: 460px;
-  border: 2px solid red;
   border-radius: 16px;
   margin: 0 auto 111px;
 }
@@ -360,7 +354,6 @@ header {
 .my-next-target-section {
   width: 1140px;
   height: 866px;
-  border: 2px solid red;
   border-radius: 16px;
   margin: 0 auto 49px;
 }
@@ -480,7 +473,6 @@ header {
 .support-section {
   width: 1140px;
   height: 313px;
-  border: 2px solid red;
   margin: 0 auto 80px;
   border-radius: 16px;
   background-image: linear-gradient(
@@ -550,7 +542,6 @@ button[type="submit"] {
 footer {
   width: 1440px;
   height: 100px;
-  border: 2px solid red;
   border-radius: 16px;
   margin: 0 auto 100px;
   display: flex;
@@ -562,7 +553,6 @@ footer {
 .footer-content {
   width: 1140px;
   height: 36px;
-  border: 2px solid red;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
